@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vikasLuxuryHotelBooking.com</title>
+    <!-- Favicon --> 
+    <link rel="icon" type="image/png" sizes="32x32" href="/hotel-booking-icon img.webp">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Luxury Hotel</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Vikas Luxury Hotel</h1>
+            <p>Experience the perfect blend of comfort and elegance</p>
+            <a href="#booking" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Room Types Section -->
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <img src="/standard-room-pic-2.jpg" alt="Standard Room">
+                <h3>Standard Room</h3>
+                <p>Comfortable room with essential amenities</p>
+                <p class="price">From $99/night</p>
+                <button class="book-button">Book Now</button>
+            </div>
+            <div class="room-card">
+                <img src="/Luxcery room pic 1.jpg" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p>Spacious room with premium amenities</p>
+                <p class="price">From $149/night</p>
+                <button class="book-button">Book Now</button>
+            </div>
+            <div class="room-card">
+                <img src="/suite room pic 1.jpg" alt="Suite">
+                <h3>Suite</h3>
+                <p>Luxurious suite with separate living area</p>
+                <p class="price">From $249/night</p>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Stay</h2>
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="check-in">Check-in Date</label>
+                <input type="date" id="check-in" required>
+            </div>
+            <div class="form-group">
+                <label for="check-out">Check-out Date</label>
+                <input type="date" id="check-out" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" required>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Room Type</label>
+                <select id="room-type" required>
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Check Availability</button>
+        </form>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <h2>Hotel Amenities</h2>
+        <div class="amenities-grid">
+            <div class="amenity">
+                <i class="fas fa-swimming-pool"></i>
+                <h3>Swimming Pool</h3>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-spa"></i>
+                <h3>Spa & Wellness</h3>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-utensils"></i>
+                <h3>Fine Dining</h3>
+            </div>
+            <div class="amenity">
+                <i class="fas fa-wifi"></i>
+                <h3>Free WiFi</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-details">
+                <p><i class="fas fa-map-marker-alt"></i> 123 Hotel Street, Bengaluru, India</p>
+                <p><i class="fas fa-phone"></i> +91 9347697166</p>
+                <p><i class="fas fa-envelope"></i> nakkavickyvicky@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3> Vikas Luxury Hotel</h3>
+                <p>Your perfect stay begins here</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/16bWNYxxUo/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/NakkaVicky?t=3U_iQ7Kh5JTGv7iLM45z2g&s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/mr_fox_420?igsh=ZWN3eHVybG5kZ2tw"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Vikas Luxury Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
